@@ -11,7 +11,7 @@ module.exports = {
 
   // [OPTIONAL] This is the website icon to the left of the title inside the navigation bar. It should be placed under the
   // /public directory of your GitHub project (not your OneDrive folder!), and referenced here by its relative path to /public.
-  icon: '/icons/99069-baby-cute-star-wars-yoda.png',
+  icon: '/icons/65.png',
 
   // Prefix for KV Storage
   kvPrefix: process.env.KV_PREFIX || '',
