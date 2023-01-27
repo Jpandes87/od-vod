@@ -11,16 +11,16 @@ module.exports = {
 
   // [OPTIONAL] This is the website icon to the left of the title inside the navigation bar. It should be placed under the
   // /public directory of your GitHub project (not your OneDrive folder!), and referenced here by its relative path to /public.
-  icon: '/icons/65.png',
+  icon: '/icons/64.png',
 
   // Prefix for KV Storage
   kvPrefix: process.env.KV_PREFIX || '',
 
   // The name of your website. Present alongside your icon.
-  title: "Moviehab VIP",
+  title: "Yoda's CornerP",
 
   // The folder that you are to share publicly with onedrive-vercel-index. Use '/' if you want to share your root folder.
-  baseDirectory: "/Vivamax",
+  baseDirectory: "/Public",
 
   // [OPTIONAL] This represents the maximum number of items that one directory lists, pagination supported.
   // Do note that this is limited up to 200 items by the upstream OneDrive API.
@@ -42,7 +42,7 @@ module.exports = {
 
   // [OPTIONAL] This is where you specify the folders that are password protected. It is an array of paths pointing to all
   // the directories in which you have .password set. Check the documentation for details.
-  protectedRoutes: ['/Vivamnax'],
+  protectedRoutes: ['/Vivamax'],
 
   // [OPTIONAL] Use "" here if you want to remove this email address from the nav bar.
   email: 'mailto:spencer.wushangbo@gmail.com',
